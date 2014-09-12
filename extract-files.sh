@@ -1,7 +1,7 @@
 #!/bin/sh
 
-VENDOR=zte
-DEVICE=u9180
+VENDOR=xiaomi
+DEVICE=armani
 
 BASE=../../../vendor/$VENDOR/$DEVICE/proprietary
 rm -rf $BASE/*
