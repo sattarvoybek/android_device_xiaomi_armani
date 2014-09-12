@@ -293,6 +293,9 @@ PRODUCT_PACKAGES += \
 	libemoji \
 	libion
 
+# System Properties
+-include $(LOCAL_PATH)/system_prop.mk
+
 PRODUCT_PROPERTY_OVERRIDES += \
 	wifi.interface=wlan0 \
 	wifi.supplicant_scan_interval=60 \
