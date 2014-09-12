@@ -19,6 +19,9 @@ import common
 def Thanks(self):
 	self.script.AppendExtra('ui_print("========================");')
 	self.script.AppendExtra('ui_print("    www.cofface.com     ");')
+        self.script.AppendExtra('ui_print(" Thanks:zhaochengw ivan ");')
+        self.script.AppendExtra('ui_print(" Thanks:syhost windxixi ");')
+        self.script.AppendExtra('ui_print(" Thanks:xiaolu wangsai  ");')
 	self.script.AppendExtra('ui_print("========================");')
 
 def FullOTA_Assertions(self):
