@@ -1,0 +1,7 @@
+#
+# system.prop for armani
+#
+ro.vendor.extension_library=/vendor/lib/libqc-opt.so
+rild.libpath=/vendor/lib/libril-qc-qmi-1.so
+ro.weibo.com=weibo.com/cofface
+
